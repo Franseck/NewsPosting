@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    max-width: 100%;
+    min-height: 100vh;
+    background-color: #F5F5F5;
+  }
+  .topleft img{
+width: 4rem;
+height: 4rem;
+  }
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .topleft {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+  }
+  .topright {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    background-color:#20889F ;
+    color: white;
+    padding-left: 1rem;
+    align-items: center;
+    
+  }
+  .bottomright img {
+    width: 4rem;
+height: 4rem;
+  }
+  .bottomright {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    
+  }
+  .bottomright a {
+    text-decoration: none;
+    color: white;
+  }
+  main {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: auto; 
+   
+  }
+  .part img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 2px solid black;
+  }
+  .images img {
+    width: 6rem;
+    height: 5rem;
+    border: 5px solid blue;
+    border-radius: 1rem;
+  }
+
+  .mainleft {
+    padding-top: 2rem;
+    width: 50%;
+  }
+  ul{
+    list-style: none;
+    display: flex;
+        flex-direction: column;
+    gap: 1rem;
+    box-shadow: 3px 3px 3px gray;
+    padding: 1rem;
+  }
+  li {
+    padding: 0.7rem;
+  }
+  .home {
+    border-radius: 1rem;
+    background-color: #20889F;
+  }
+  .mainright {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 70%;
+    gap: 1rem;
+   
+  }
+  .participants{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+    border-bottom: 2px solid gray;
+}
+.part {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+
+}
+.mainright1{
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 3px 3px 3px gray;;
+    
+}
+.mainright1 h3{
+    color:#20889F ;
+}
+
+
+.asagi{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.technews {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 1rem;
+    gap: 1rem;
+ 
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    }
+
+.text {
+width: 60%;
+}
+.newstotal {
+    display: flex;
+    text-align: center;
+    gap: 1rem;
+}
+.rect  img{
+    width: 100%;
+    padding: 1rem;
+}
+.mainright2 {
+    background-color: white;
+    box-shadow: 3px 3px 3px gray;
+    padding: 1rem;
+}
+
+@media screen and (max-width:480px) {
+    main {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }   
+   .mainleft {
+    width: 100%;
+    text-align: center;
+   }
+
+}
